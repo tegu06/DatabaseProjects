@@ -1,0 +1,17 @@
+{
+	"name": "azsql_dest_test",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_azuredb_dbclass",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "test"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

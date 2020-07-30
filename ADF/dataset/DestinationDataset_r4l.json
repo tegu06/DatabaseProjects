@@ -1,0 +1,30 @@
+{
+	"name": "DestinationDataset_r4l",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_azuredb_dbclass",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "id",
+				"type": "int",
+				"precision": 10,
+				"scale": 0
+			},
+			{
+				"name": "Name",
+				"type": "varchar",
+				"precision": 0,
+				"scale": 0
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "Test"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
