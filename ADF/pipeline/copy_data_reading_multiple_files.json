@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "Get Metadata1",
+				"name": "GetFiles",
 				"type": "GetMetadata",
 				"dependsOn": [],
 				"policy": {
@@ -44,7 +44,7 @@
 				"userProperties": [],
 				"typeProperties": {
 					"items": {
-						"value": "@activity('Get Metadata1').output.childitems",
+						"value": "@activity('Getfiles').output.childitems",
 						"type": "Expression"
 					},
 					"isSequential": true,
@@ -119,7 +119,7 @@
 				"type": "SetVariable",
 				"dependsOn": [
 					{
-						"activity": "Get Metadata1",
+						"activity": "GetFiles",
 						"dependencyConditions": [
 							"Succeeded"
 						]
@@ -129,7 +129,7 @@
 				"typeProperties": {
 					"variableName": "source_file",
 					"value": {
-						"value": "@activity('Get Metadata1').output.childItems",
+						"value": "@activity('GetFiles').output.childItems",
 						"type": "Expression"
 					}
 				}
