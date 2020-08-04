@@ -44,7 +44,7 @@
 				"userProperties": [],
 				"typeProperties": {
 					"items": {
-						"value": "@activity('Get Metadata1').output.childitems.name",
+						"value": "@activity('Get Metadata1').output.childitems",
 						"type": "Expression"
 					},
 					"isSequential": true,
@@ -129,7 +129,7 @@
 				"typeProperties": {
 					"variableName": "source_file",
 					"value": {
-						"value": "@activity('Get Metadata1').output.value",
+						"value": "@activity('Get Metadata1').output.childItems",
 						"type": "Expression"
 					}
 				}
@@ -137,7 +137,7 @@
 		],
 		"variables": {
 			"source_file": {
-				"type": "String"
+				"type": "Array"
 			}
 		},
 		"annotations": []
