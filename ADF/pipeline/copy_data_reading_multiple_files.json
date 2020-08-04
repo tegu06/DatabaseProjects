@@ -158,10 +158,10 @@
 							},
 							"inputs": [
 								{
-									"referenceName": "ClassBlob_metadata",
+									"referenceName": "class_blob_source",
 									"type": "DatasetReference",
 									"parameters": {
-										"file_name": {
+										"file": {
 											"value": "@item().name",
 											"type": "Expression"
 										}
