@@ -19,7 +19,9 @@
 						"referenceName": "ClassBlob_metadata",
 						"type": "DatasetReference"
 					},
-					"fieldList": [],
+					"fieldList": [
+						"childItems"
+					],
 					"storeSettings": {
 						"type": "AzureBlobStorageReadSettings"
 					},
