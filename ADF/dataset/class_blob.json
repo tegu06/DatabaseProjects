@@ -7,7 +7,7 @@
 		},
 		"parameters": {
 			"file_name": {
-				"type": "string"
+				"type": "array"
 			}
 		},
 		"annotations": [],
