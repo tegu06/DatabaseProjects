@@ -126,7 +126,7 @@
 									"type": "DatasetReference",
 									"parameters": {
 										"file_name": {
-											"value": "@variables('res')",
+											"value": "@variables('fil')",
 											"type": "Expression"
 										}
 									}
