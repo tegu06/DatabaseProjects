@@ -25,7 +25,17 @@
 					},
 					"dataset": {
 						"referenceName": "azure_sql_src",
-						"type": "DatasetReference"
+						"type": "DatasetReference",
+						"parameters": {
+							"table": {
+								"value": "@pipeline().parameters.table_name",
+								"type": "Expression"
+							},
+							"schema": {
+								"value": "@pipeline().parameters.schema_name",
+								"type": "Expression"
+							}
+						}
 					},
 					"firstRowOnly": false
 				}
