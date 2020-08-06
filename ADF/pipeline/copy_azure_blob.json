@@ -37,7 +37,7 @@
 							}
 						}
 					},
-					"firstRowOnly": true
+					"firstRowOnly": false
 				}
 			},
 			{
@@ -144,7 +144,7 @@
 				"typeProperties": {
 					"variableName": "res",
 					"value": {
-						"value": "@activity('Lookup1').output.firstRow.result",
+						"value": "@activity('Lookup1').output.value",
 						"type": "Expression"
 					}
 				}
@@ -162,7 +162,7 @@
 		},
 		"variables": {
 			"res": {
-				"type": "String"
+				"type": "Array"
 			}
 		},
 		"annotations": []
