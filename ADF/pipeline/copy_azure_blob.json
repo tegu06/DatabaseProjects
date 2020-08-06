@@ -18,7 +18,7 @@
 					"source": {
 						"type": "AzureSqlSource",
 						"sqlReaderQuery": {
-							"value": "select  table_name\nfrom INFORMATION_SCHEMA.TABLES\nWHERE TABLE_SCHEMA = 'dbo'",
+							"value": "select  table_name as table\nfrom INFORMATION_SCHEMA.TABLES\nWHERE TABLE_SCHEMA = 'dbo'",
 							"type": "Expression"
 						},
 						"queryTimeout": "02:00:00"
@@ -54,7 +54,7 @@
 				"userProperties": [],
 				"typeProperties": {
 					"items": {
-						"value": "@activity('Lookup1').output.firstRow.table_name",
+						"value": "@activity('Lookup1').output.firstRow.table",
 						"type": "Expression"
 					},
 					"isSequential": true,
