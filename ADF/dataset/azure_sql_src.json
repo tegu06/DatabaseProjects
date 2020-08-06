@@ -8,14 +8,17 @@
 		"parameters": {
 			"table": {
 				"type": "string"
+			},
+			"schema": {
+				"type": "string"
 			}
 		},
 		"annotations": [],
 		"type": "AzureSqlTable",
 		"schema": [],
 		"typeProperties": {
-			"schema": "dbo",
-			"table": "emp"
+			"schema": "",
+			"table": ""
 		}
 	}
 }
