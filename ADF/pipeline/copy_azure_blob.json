@@ -139,7 +139,7 @@
 							"dependsOn": [],
 							"userProperties": [],
 							"typeProperties": {
-								"variableName": "res",
+								"variableName": "fil",
 								"value": {
 									"value": "@item().result",
 									"type": "Expression"
@@ -183,6 +183,9 @@
 		"variables": {
 			"res": {
 				"type": "Array"
+			},
+			"fil": {
+				"type": "String"
 			}
 		},
 		"annotations": []
