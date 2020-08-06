@@ -105,6 +105,10 @@
 										"table": {
 											"value": "@activity('Lookup1').output.table_name",
 											"type": "Expression"
+										},
+										"schema": {
+											"value": "@pipeline().parameters.schema_name",
+											"type": "Expression"
 										}
 									}
 								}
