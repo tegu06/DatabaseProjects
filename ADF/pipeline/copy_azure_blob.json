@@ -119,7 +119,7 @@
 									"type": "DatasetReference",
 									"parameters": {
 										"file_name": {
-											"value": "@activity('Lookup1').output.value",
+											"value": "@variables('res')",
 											"type": "Expression"
 										}
 									}
