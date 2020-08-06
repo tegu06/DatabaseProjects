@@ -15,7 +15,7 @@
 		"schema": [],
 		"typeProperties": {
 			"schema": "dbo",
-			"table": ""
+			"table": "emp"
 		}
 	}
 }
