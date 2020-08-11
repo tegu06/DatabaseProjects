@@ -84,7 +84,7 @@
 						"referenceName": "class_blob",
 						"type": "DatasetReference",
 						"parameters": {
-							"file_name": "\n"
+							"file_name": "Department_1.csv\n"
 						}
 					}
 				],
