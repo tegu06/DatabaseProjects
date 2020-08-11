@@ -215,14 +215,14 @@
 		"parameters": {
 			"SourceStore_Location": {
 				"type": "String",
-				"defaultValue": "class"
+				"defaultValue": "class2"
 			},
 			"SourceStore_Directory": {
 				"type": "String"
 			},
 			"DestinationStore_Location": {
 				"type": "String",
-				"defaultValue": "class2"
+				"defaultValue": "class"
 			},
 			"DestinationStore_Directory": {
 				"type": "String",
