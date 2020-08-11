@@ -101,7 +101,14 @@
 			{
 				"name": "Web1",
 				"type": "WebActivity",
-				"dependsOn": [],
+				"dependsOn": [
+					{
+						"activity": "Copy data1",
+						"dependencyConditions": [
+							"Succeeded"
+						]
+					}
+				],
 				"policy": {
 					"timeout": "7.00:00:00",
 					"retry": 0,
@@ -112,7 +119,8 @@
 				"userProperties": [],
 				"typeProperties": {
 					"url": " https://t.me/joinchat/Cs6ZVxMTLRXa2S67FzbPRQ",
-					"method": "POST"
+					"method": "POST",
+					"body": "\"This is a test \""
 				}
 			}
 		],
