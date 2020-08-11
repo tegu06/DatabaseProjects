@@ -10,7 +10,8 @@
 					"referenceName": "AzureKeyVault_ls",
 					"type": "LinkedServiceReference"
 				},
-				"secretName": "MysecretHahu"
+				"secretName": "MysecretHahu",
+				"secretVersion": "d878bf66e58e45ff87e8410cdedb6b3d"
 			}
 		}
 	},
