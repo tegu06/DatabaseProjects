@@ -34,6 +34,44 @@
 					"enableStaging": false,
 					"translator": {
 						"type": "TabularTranslator",
+						"mappings": [
+							{
+								"source": {
+									"name": "DepartmentID",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "DepartmentID",
+									"type": "Int16",
+									"physicalType": "smallint"
+								}
+							},
+							{
+								"source": {
+									"name": "Name",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Name",
+									"type": "String",
+									"physicalType": "nvarchar"
+								}
+							},
+							{
+								"source": {
+									"name": "GroupName",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "GroupName",
+									"type": "String",
+									"physicalType": "nvarchar"
+								}
+							}
+						],
 						"typeConversion": true,
 						"typeConversionSettings": {
 							"allowDataTruncation": true,
@@ -46,7 +84,7 @@
 						"referenceName": "class_blob",
 						"type": "DatasetReference",
 						"parameters": {
-							"file_name": "Department_1.csv\n"
+							"file_name": "\n"
 						}
 					}
 				],
