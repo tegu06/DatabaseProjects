@@ -120,7 +120,13 @@
 				"typeProperties": {
 					"url": " https://t.me/joinchat/Cs6ZVxMTLRXa2S67FzbPRQ",
 					"method": "POST",
-					"body": "\"This is a test \""
+					"headers": {
+						"test": "https://t.me/joinchat/Cs6ZVxMTLRXa2S67FzbPRQ"
+					},
+					"body": "\"This is a test \"",
+					"authentication": {
+						"type": "Basic"
+					}
 				}
 			}
 		],
